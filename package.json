@@ -1,0 +1,24 @@
+{
+  "name": "compresspng",
+  "version": "1.0.0",
+  "description": "compresspng by tinypng",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/411969299/compressPng.git"
+  },
+  "keywords": [
+    "compress",
+    "png",
+    "tinypng"
+  ],
+  "author": "niuyifei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/411969299/compressPng/issues"
+  },
+  "homepage": "https://github.com/411969299/compressPng#readme"
+}
