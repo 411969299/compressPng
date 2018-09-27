@@ -1,8 +1,11 @@
 {
   "name": "compresspng",
-  "version": "1.0.0",
+  "version": "0.0.6",
   "description": "compresspng by tinypng",
   "main": "index.js",
+  "bin": {
+    "cpng": "./bin/comder.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/411969299/compressPng/issues"
   },
-  "homepage": "https://github.com/411969299/compressPng#readme"
+  "homepage": "https://github.com/411969299/compressPng#readme",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "tinify": "^1.6.0-beta.2"
+  }
 }
